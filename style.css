@@ -9,8 +9,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items:center;
     background-image: url(https://static.vecteezy.com/system/resources/previews/002/597/461/original/abstract-dark-hexagon-pattern-on-green-and-blue-neon-light-background-technology-style-modern-futuristic-geometric-shape-web-banner-design-you-can-use-for-cover-template-poster-flyer-print-ad-vector.jpg);
-    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/005/642/789/small_2x/abstract-white-hexagon-pattern-on-green-and-blue-neon-light-background-technology-style-modern-futuristic-geometric-shape-web-banner-design-you-can-use-for-cover-template-poster-flyer-print-ad-vector.jpg); */
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,9 +20,9 @@
 .login {
     height: 350px;
     width: 350px;
-    margin: 100px;
+  
     background:black;
-    /* background: url(https://static.vecteezy.com/system/resources/previews/002/597/461/original/abstract-dark-hexagon-pattern-on-green-and-blue-neon-light-background-technology-style-modern-futuristic-geometric-shape-web-banner-design-you-can-use-for-cover-template-poster-flyer-print-ad-vector.jpg); */
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,27 +52,31 @@ input {
     display: flex;
     margin: 20px auto;
     padding: 10px;
+    color:aqua;
   
    
 
 }
+input::palceholder{
+    color:antiquewhite;
 
 button {
     width: 150px;
     height: 40px;
-    margin: 10px auto;
+    margin: 20px auto;
     justify-content: center;
     display: block;
     color:black;
     letter-spacing:1px;
     font-weight:bold;
-    /* background: rgb(67, 191, 171); */
+   
     font-size: 1em;
     outline: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: .5s;
+    backeground-color:antiquewhite;
 }
 
 button:hover{
