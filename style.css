@@ -59,7 +59,7 @@ input {
 }
 input::palceholder{
     color:antiquewhite;
-
+}
 button {
     width: 150px;
     height: 40px;
@@ -76,7 +76,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: .5s;
-    backeground-color:antiquewhite;
+    background-color:antiquewhite;
 }
 
 button:hover{
